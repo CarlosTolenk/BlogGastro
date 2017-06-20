@@ -60,3 +60,39 @@ body{
     width: 60%;
   }
 }
+
+@media screen and (min-width:720px){
+  .post{
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width:450px){
+  .post h3{
+    font-size: 2em;
+  }
+  .post h5{
+    font-size: 1.2em;
+  }
+  .post p{
+    margin: 0 10px;
+  }
+
+}
+
+.post h3{
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 1px 8px;
+}
+.post h5{
+  font-family: 'Dancing Script', cursive;
+  margin: 1px 8px;
+}
+.post p{
+  text-align: justify;
+  font-family: 'Comfortaa', cursive;
+  margin: 1px 8px;
+}
+.card-img{  
+  text-align: center;
+}
