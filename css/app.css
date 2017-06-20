@@ -1,0 +1,62 @@
+body{
+  background-image: url(img/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Comfortaa', cursive;
+}
+
+.container-header{
+  background-color: #e57373;
+  opacity: 0.85;
+}
+.container-header h2{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.container-header h4{
+  text-align: right;
+  font-family: 'Dancing Script', cursive;
+}
+
+@media screen and (max-width:450px){
+  .container-header h2{
+    font-size: 1.8em;
+  }
+
+  .container-header h4{
+    font-size: 1.5em;
+  }
+}
+.vertical li a{
+  color: black;
+  font-weight: bold;
+}
+.vertical li a:hover{
+  color: white;
+  background-color: #039be5;
+}
+.favorito img{
+  border-radius: 50%;
+  width: 100%;
+}
+.favorito h5{
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+.historial h5{
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width:450px){
+  .favorito img{
+    width: 60%;
+  }
+}
